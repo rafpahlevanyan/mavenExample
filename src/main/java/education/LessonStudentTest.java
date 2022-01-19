@@ -271,6 +271,7 @@ public class LessonStudentTest implements LessonStudentCommands {
                 addLesson();
             }
 
+
         } else {
             System.err.println("invalid data");
         }
