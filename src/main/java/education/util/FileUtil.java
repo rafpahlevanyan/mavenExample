@@ -12,7 +12,7 @@ import java.util.Map;
 
 public class FileUtil {
 
-    private static final String dataPath = "C:\\Users\\User\\IdeaProjects\\mavenExample\\src\\main\\java\\education\\data";
+    private static final String dataPath = "C:\\Users\\User\\IdeaProjects\\mavenExample\\src\\main\\resources\\data";
 
     public static void serializeLessons(List<Lesson> lessonsList) {
         try (ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream(
